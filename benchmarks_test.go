@@ -1,13 +1,14 @@
 package ut
 
 import (
+	"fmt"
 	"testing"
 
 	"github.com/go-playground/locales/en"
 )
 
 func BenchmarkBasicTranslation(b *testing.B) {
-
+	fmt.Println("Test!!")
 	en := en.New()
 	ut := New(en, en)
 	loc, found := ut.FindTranslator("en")
