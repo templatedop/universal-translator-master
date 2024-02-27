@@ -1,5 +1,5 @@
-module github.com/go-playground/universal-translator
+module github.com/templatedop/universal-translator-master
 
-go 1.18
+go 1.21.1
 
 require github.com/go-playground/locales v0.14.1
